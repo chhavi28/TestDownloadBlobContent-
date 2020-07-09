@@ -1,0 +1,7 @@
+C:\Users\chgoel\source\repos\TestDownloadBlobContent\XMLGenerator\obj\Debug\XMLGenerator.csprojAssemblyReference.cache
+C:\Users\chgoel\source\repos\TestDownloadBlobContent\XMLGenerator\obj\Debug\XMLGenerator.csproj.CoreCompileInputs.cache
+C:\Users\chgoel\source\repos\TestDownloadBlobContent\XMLGenerator\bin\Debug\XMLGenerator.exe.config
+C:\Users\chgoel\source\repos\TestDownloadBlobContent\XMLGenerator\bin\Debug\XMLGenerator.exe
+C:\Users\chgoel\source\repos\TestDownloadBlobContent\XMLGenerator\bin\Debug\XMLGenerator.pdb
+C:\Users\chgoel\source\repos\TestDownloadBlobContent\XMLGenerator\obj\Debug\XMLGenerator.exe
+C:\Users\chgoel\source\repos\TestDownloadBlobContent\XMLGenerator\obj\Debug\XMLGenerator.pdb
