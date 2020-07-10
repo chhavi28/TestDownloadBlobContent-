@@ -14,10 +14,10 @@ namespace TestDownloadBlobContent
             {
                 string storageAccountConnectionString = "TO DO- CONNECTION STRING";
                 string containerName = "test-downloadcontent";
-                string blobName = "UsingXMLDoc1.xml"; //"UsingFileStream1.xml";
+                string blobName = "UsingFileStream1.xml"; //"UsingXMLDoc1.xml"; //
 
-                //string contentUsingDownloadTextAsync = await DownloadContentAsync_DownloadTextAsync(storageAccountConnectionString, containerName, blobName);
-                string contentUsingDownloadTOStreamAsync = await DownloadContentAsync_DownloadToStreamAsync(storageAccountConnectionString, containerName, blobName);
+                string contentUsingDownloadTextAsync = await DownloadContentAsync_DownloadTextAsync(storageAccountConnectionString, containerName, blobName);
+                //string contentUsingDownloadTOStreamAsync = await DownloadContentAsync_DownloadToStreamAsync(storageAccountConnectionString, containerName, blobName);
             }
             catch(Exception e)
             {
@@ -43,6 +43,7 @@ namespace TestDownloadBlobContent
             // Download the blob content
             string xmlBlobContent =
                 await (blob as CloudBlockBlob).DownloadTextAsync(
+                    System.Text.Encoding.Unicode,
                     null,
                     new BlobRequestOptions { LocationMode = LocationMode.PrimaryThenSecondary },
                     new OperationContext());
